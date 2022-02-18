@@ -1,0 +1,219 @@
+<data version="2">
+<table name="diaro_folders">
+<r>
+   <uid>2dddc47fa2fa5d20a20659efdad719f6</uid>
+   <title>Folder 1</title>
+   <color>#1c3bff</color>
+   <pattern></pattern>
+</r>
+<r>
+   <uid>2f74c2a0d2932ac03d2dccb0dfe39524</uid>
+   <title>Folder 2</title>
+   <color>#ff1cf6</color>
+   <pattern>pattern03</pattern>
+</r>
+</table>
+<table name="diaro_tags">
+<r>
+   <uid>158d7558ee87d9a8caa77b59abcdd9ef</uid>
+   <title>Idea</title>
+</r>
+<r>
+   <uid>db00156e8ed1107b644be9e06a84ad93</uid>
+   <title>Dailies</title>
+</r>
+</table>
+<table name="diaro_moods">
+<r>
+   <uid>1</uid>
+   <title>Awesome</title>
+   <icon>mood_1happy</icon>
+   <color>#9E9E9E</color>
+   <weight>5</weight>
+</r>
+<r>
+   <uid>2</uid>
+   <title>Happy</title>
+   <icon>mood_2smile</icon>
+   <color>#9E9E9E</color>
+   <weight>4</weight>
+</r>
+<r>
+   <uid>3</uid>
+   <title>Neutral</title>
+   <icon>mood_3neutral</icon>
+   <color>#9E9E9E</color>
+   <weight>3</weight>
+</r>
+<r>
+   <uid>4</uid>
+   <title>Bad</title>
+   <icon>mood_4unhappy</icon>
+   <color>#9E9E9E</color>
+   <weight>2</weight>
+</r>
+<r>
+   <uid>5</uid>
+   <title>Awful</title>
+   <icon>mood_5teardrop</icon>
+   <color>#9E9E9E</color>
+   <weight>1</weight>
+</r>
+</table>
+<table name="diaro_entries">
+<r>
+   <uid>17ce1092b553a59213b19b2467a97b72</uid>
+   <date>1471066311656</date>
+   <tz_offset>-04:00</tz_offset>
+   <title>First dream journal</title>
+   <text>example text blah blah blah</text>
+   <folder_uid>ec61fc61f7618879b42d938c07a3eda3</folder_uid>
+   <location_uid></location_uid>
+   <tags>,2a2542f9e61a9a1d3b83ae31889ac954,</tags>
+   <primary_photo_uid></primary_photo_uid>
+   <weather_temperature>null</weather_temperature>
+   <weather_icon></weather_icon>
+   <weather_description></weather_description>
+   <mood>0</mood>
+</r>
+<r>
+   <uid>de559f5092e423912883a3943fb667b5</uid>
+   <date>1471068416095</date>
+   <tz_offset>-04:00</tz_offset>
+   <title>Goals</title>
+   <text>Better emotions
+Better communication
+Sleep better...</text>
+   <folder_uid>965637029f765a2a9052e03271c3c4a0</folder_uid>
+   <location_uid></location_uid>
+   <tags>,158d7558ee87d9a8caa77b59abcdd9ef,</tags>
+   <primary_photo_uid></primary_photo_uid>
+   <weather_temperature>null</weather_temperature>
+   <weather_icon></weather_icon>
+   <weather_description></weather_description>
+   <mood>0</mood>
+</r>
+</table>
+<table name="diaro_templates">
+<r>
+   <uid>9f5ae4433ea9c6c78192aa16b62f1eef</uid>
+   <name>5 Minutes</name>
+   <title>My day today</title>
+   <text>• What did I do today? 
+
+• What am I feeling right now? 
+
+• What am I thankful for? 
+
+• What did I read today? 
+
+• What are my plans for tomorrow? 
+
+</text>
+   <date_created>2020-03-17 23:00:10</date_created>
+</r>
+<r>
+   <uid>9f5ae4433ea9c6c78192aa16b62f1eeg</uid>
+   <name>Gratitude</name>
+   <title>Today I am grateful for</title>
+   <text>🌞 Morning 
+
+• What am I thankful for right now? 
+
+
+• What would make today great? 
+
+
+• What are my top three priorities for today? 
+
+
+🌜 Evening 
+
+• What did I achieve today? 
+
+
+• 3 amazing things that happened today? 
+
+
+• What is one thing I could have done better today? 
+
+
+• What are my plans for tomorrow? 
+
+</text>
+   <date_created>2020-03-17 23:00:10</date_created>
+</r>
+<r>
+   <uid>9f5ae4433ea9c6c78192aa16b62f1eei</uid>
+   <name>Diet Log</name>
+   <title>My diet</title>
+   <text>• Breakfast: 
+
+
+• Lunch: 
+
+
+• Dinner: 
+
+
+• Snacks: 
+
+
+• Exercise: 
+
+
+• Water: 
+
+
+• Notes: 
+
+</text>
+   <date_created>2020-03-17 23:00:10</date_created>
+</r>
+<r>
+   <uid>9f5ae4433ea9c6c78192aa16b62f1eey</uid>
+   <name>Weekly Review</name>
+   <title>⌛️ Week in review</title>
+   <text>🔨 Things done: 
+
+
+✏️ Plans: 
+
+
+🏁 Achievements: 
+
+
+🍽 Culinary: 
+
+
+🏃‍️ Sports &amp; health: 
+
+
+💸 Expenses: 
+
+
+🌞 Grateful for: 
+
+
+🎬 Movie of the week: 
+
+
+📖 Book of the week: 
+
+
+🎧 Song of the week: 
+
+
+📰 News: 
+
+
+💭 Thoughts: 
+
+
+📅 Coming week: 
+
+</text>
+   <date_created>2020-03-17 23:00:10</date_created>
+</r>
+</table>
+</data>
