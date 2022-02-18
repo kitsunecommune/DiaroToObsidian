@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DiaroToObsidian.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,6 +28,12 @@ namespace DiaroToObsidian
             }
 
             return tables;
+        }
+
+        public DiaroTables ConvertTableDictToClass(Dictionary<string, List<string>> dict)
+        {
+            var temp = new DiaroTables();
+            return temp;
         }
     }
 }

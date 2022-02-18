@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace DiaroToObsidian.Models
 {
-    class DiaroTables
+    public class DiaroTables
     {
         public List<DiaroEntry> Folders { get; set; }
         public List<DiaroEntry> Tags { get; set; }

@@ -1,4 +1,6 @@
-﻿namespace DiaroToObsidian
+﻿using DiaroToObsidian.FileOperators;
+
+namespace DiaroToObsidian
 {
     class Program
     {
@@ -8,9 +10,13 @@
 
             var converter = new Converter();
             var reader = new DiaroBackupReader();
+            var creator = new MarkdownFileCreator(); //eventually will be used for creating files for obsidian
 
             var lines = reader.ReadDiaroEntryIn(fileName);
             var tables = converter.ConvertListToTablesDict(lines);
+
+
+
         }
     }
 }
