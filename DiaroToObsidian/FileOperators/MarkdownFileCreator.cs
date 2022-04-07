@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DiaroToObsidian.FileOperators
 {
-    class MarkdownFileCreator
+    public class MarkdownFileCreator
     {
+
     }
 }
