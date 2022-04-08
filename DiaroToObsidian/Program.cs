@@ -1,4 +1,5 @@
 ﻿using DiaroToObsidian.FileOperators;
+using DiaroToObsidian.Logic;
 
 namespace DiaroToObsidian
 {
@@ -9,12 +10,12 @@ namespace DiaroToObsidian
             var fileName = "E:/NPCNotesBackup/Diaro/Diaro_auto_20220215/DiaroBackup.xml";
 
             var reader = new DiaroBackupReader();
+            var converter = new Converter();
             var creator = new MarkdownFileCreator(); //eventually will be used for creating files for obsidian
 
             var diaroData = reader.ReadDiaroXMLIn(fileName);
-
-
-            var temp = "hello";
+            var obsidianData = converter.DiaroDataToObsidianData(diaroData);
+            creator.CreateObsidianFile(obsidianData);
 
         }
     }

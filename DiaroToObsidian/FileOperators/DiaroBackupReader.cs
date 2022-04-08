@@ -8,17 +8,17 @@ namespace DiaroToObsidian.FileOperators
 {
     public class DiaroBackupReader
     {
-        private DiaroStructure _resultingMessage;
+        private DiaroData _resultingMessage;
 
-        public DiaroStructure ReadDiaroXMLIn(string fileName)
+        public DiaroData ReadDiaroXMLIn(string fileName)
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(DiaroStructure));
+            XmlSerializer serializer = new XmlSerializer(typeof(DiaroData));
 
             XmlDocument xDoc = new XmlDocument();
             xDoc.Load(fileName);
             using (var file = new StreamReader(fileName))
             {
-                _resultingMessage = (DiaroStructure)serializer.Deserialize(file);
+                _resultingMessage = (DiaroData)serializer.Deserialize(file);
             }
 
             return _resultingMessage;

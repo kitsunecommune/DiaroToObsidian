@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 namespace DiaroToObsidian.Models
 {
     [XmlRoot("data")]
-    public class DiaroStructure
+    public class DiaroData
     {
         [XmlAttribute("version")]
         public string Version { get; set; }

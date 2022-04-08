@@ -27,7 +27,7 @@ namespace DiaroToObsidian.Models
         [XmlElement("folder_uid")]
         public string FolderUID { get; set; }
         [XmlElement("tags")]
-        public List<string> Tags { get; set; }
+        public string Tags { get; set; }
         [XmlElement("mood")]
         public string Mood { get; set; }
         [XmlElement("date_created")]
