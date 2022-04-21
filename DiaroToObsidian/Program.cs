@@ -11,12 +11,11 @@ namespace DiaroToObsidian
 
             var reader = new DiaroBackupReader();
             var converter = new Converter();
-            var creator = new MarkdownFileCreator(); //eventually will be used for creating files for obsidian
+            var creator = new ObsidianFileCreator(); //eventually will be used for creating files for obsidian
 
             var diaroData = reader.ReadDiaroXMLIn(fileName);
             var obsidianData = converter.DiaroDataToObsidianData(diaroData);
-            creator.CreateObsidianFile(obsidianData);
-
+            creator.CreateAll(obsidianData);
         }
     }
 }
