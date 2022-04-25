@@ -8,6 +8,7 @@ namespace DiaroToObsidian
         static void Main(string[] args)
         {
             var fileName = "E:/NPCNotesBackup/Diaro/Diaro_auto_20220215/DiaroBackup.xml";
+            var filePath = "E:/NPCNotesBackup/Diaro/ObsidianVersions";
 
             var reader = new DiaroBackupReader();
             var converter = new Converter();
@@ -15,7 +16,7 @@ namespace DiaroToObsidian
 
             var diaroData = reader.ReadDiaroXMLIn(fileName);
             var obsidianData = converter.DiaroDataToObsidianData(diaroData);
-            creator.CreateAll(obsidianData);
+            creator.CreateAll(obsidianData,filePath);
         }
     }
 }
